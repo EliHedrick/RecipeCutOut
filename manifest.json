@@ -2,5 +2,12 @@
   "name": "Recipe Cut Out",
   "version": "1.0",
   "description": "Skip all the stuff on the recipe page",
-  "manifest_version": 2
+  "manifest_version": 2,
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
 }

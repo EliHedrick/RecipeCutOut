@@ -1,6 +1,6 @@
 {
-    "name": "Getting Started Example",
-    "version": "1.0",
-    "description": "Build an Extension!",
-    "manifest_version": 2
-  }
+  "name": "Recipe Cut Out",
+  "version": "1.0",
+  "description": "Skip all the stuff on the recipe page",
+  "manifest_version": 2
+}
